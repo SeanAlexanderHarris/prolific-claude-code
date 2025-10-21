@@ -1,0 +1,8 @@
+{
+  "name": "prolific-plugin",
+  "description": "An unofficial plugin for Claude Code from Prolific",
+  "version": "1.0.0",
+  "author": {
+    "name": "@SeanAlexanderHarris"
+  }
+}

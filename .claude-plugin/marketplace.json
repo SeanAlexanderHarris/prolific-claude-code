@@ -1,0 +1,15 @@
+{
+  "name": "prolific-claude-code-plugins",
+  "owner": {
+    "name": "@SeanAlexanderHarris"
+  },
+  "plugins": [
+    {
+      "name": "prolific-cli",
+      "source": "./plugins/prolific-cli",
+      "license": "MIT",
+      "tags": ["prolific", "CLI", "API"],
+      "description": "Unofficial plugin for managing Prolific research via Claude Code and the Prolific CLI"
+    }
+  ]
+}
