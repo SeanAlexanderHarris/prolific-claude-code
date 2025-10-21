@@ -67,14 +67,14 @@ Relevant Anthropic docs for marketplaces [here](https://docs.claude.com/en/docs/
 
 ⏺ Bash(prolific workspace list)
   ⎿  ID                       Title              Description
-     61a65c06b084910b3f0c00d5 Prolific Team      The Prolific Workspace
-     655f77ebf0b16e6434ee470f My Workspace       This is your initial workspace.
-     … +6 lines (ctrl+o to expand)
+     34234324324324324234 Cool Team      The Cool Workspace
+     34234235465475465464 My Workspace       This is your initial workspace.
+     … +2 lines (ctrl+o to expand)
 
 ⏺ Perfect! I've successfully retrieved your workspaces from Prolific. You have 6 workspaces:
 
   1. Hot Team (ID: 123456789123455)
-    - Description: The Prolific Workspace
+    - Description: The Cool Workspace
   2. My Workspace (ID: 43847392874328974)
     - Description: This is your initial workspace.
   3. aitaskbuilder-cli (ID: 4732847329847239874)
