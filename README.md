@@ -3,7 +3,7 @@
 Unofficial marketplace from Prolific with curated plugins for Claude Code (currently just the Prolific CLI as proof of concept)
 
 
-You will need the [Prolific CLI](https://github.com/prolific-oss/cli) installed and authenticated locally to be able to run the CLI skill via the plugin.
+You will need the [Prolific CLI](https://github.com/prolific-oss/cli) (tagged as experimental itself) installed and authenticated locally to be able to run the CLI skill via the plugin.
 
 ### Installation
 
