@@ -1,6 +1,6 @@
 {
   "name": "prolific-cli",
-  "description": "Official Prolific plugin for Claude Code - manage research studies, participants, and data collection via CLI",
+  "description": "Unofficial Prolific plugin for Claude Code - manage research studies, participants, and data collection via CLI",
   "version": "1.0.0",
   "author": {
     "name": "@SeanAlexanderHarris"

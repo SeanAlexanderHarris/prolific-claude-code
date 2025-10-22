@@ -3,6 +3,10 @@
   "owner": {
     "name": "@SeanAlexanderHarris"
   },
+  "metadata": {
+    "description": "Prolific example skills",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "prolific-cli",
