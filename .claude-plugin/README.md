@@ -12,7 +12,8 @@ This marketplace provides a Claude plugin for working with the Prolific CLI rese
         ├── .claude-plugin/
         │   └── plugin.json      # Plugin metadata
         └── skills/
-            └── prolific-cli.md  # Skill definition
+            └── prolific-cli/    # Skill directory
+                └── SKILL.md     # Skill definition
 ```
 
 ## Available Plugin: prolific-cli
