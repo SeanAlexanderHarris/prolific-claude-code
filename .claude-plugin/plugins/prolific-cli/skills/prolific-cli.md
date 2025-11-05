@@ -1,5 +1,5 @@
 ---
-name: prolific-cli-skill
+name: prolific-cli
 description: Comprehensive skill for working with the Prolific CLI tool to manage studies, participants, and research data. Use this skill when users need to interact with Prolific's research platform through command-line operations.
 ---
 
