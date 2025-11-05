@@ -1,11 +1,9 @@
 ---
-name: prolific-cli
-description: Comprehensive skill for working with the Prolific CLI tool to manage studies, participants, and research data. Use this skill when users need to interact with Prolific's research platform through command-line operations.
+name: use-prolific-cli
+description: Run the Prolific CLI
 ---
 
-# Prolific CLI Operations
-
-## Instructions
+# Use Prolific CLI
 
 This skill provides comprehensive guidance for using the Prolific CLI to manage research studies, participants, and data collection workflows.
 
@@ -16,7 +14,7 @@ This skill assumes the user has:
 2. **PROLIFIC_TOKEN environment variable set** with a valid API token
 3. **Enabled Claude Code** to execute bash commands
 
-This skill does NOT install or run the CLI itself - it provides expertise on using the CLI tool that must already be installed and authenticated on the user's machine.
+This skill does NOT install the CLI itself - it provides expertise on using the CLI tool that must already be installed and authenticated on the user's machine.
 
 ### Best Practices
 
@@ -32,7 +30,6 @@ Use this skill when users need to:
 - Create, manage, or publish research studies
 - Handle participant recruitment and screening
 - Export or analyze study data
-- Integrate AI Task Builder capabilities
 - Troubleshoot CLI operations or authentication issues
 - Automate research workflows using command-line tools
 
@@ -55,16 +52,5 @@ When user asks: "Create a study with 100 participants aged 18-65"
 2. Use Write tool to create a study configuration YAML file
 3. Use Bash tool to run: `prolific study create -t study-config.yaml`
 4. Parse the output and confirm success or help debug errors
-
-### Common Commands Available
-
-- **Studies**: `prolific studies list`, `prolific study view <id>`, `prolific study create -t <file>`
-- **Study Control**: `prolific study transition <id> <START|PAUSE|STOP|PUBLISH>`
-- **Submissions**: `prolific submission list <study-id>`
-- **Projects**: `prolific project list`, `prolific project view <id>`
-- **Workspaces**: `prolific workspace list`, `prolific workspace view <id>`
-- **AI Task Builder**: `prolific aitaskbuilder get-batches`, `prolific aitaskbuilder get-responses <batch-id>`
-- **Filters**: `prolific filter-sets list`, `prolific requirements list`
-- **Account**: `prolific whoami`
 
 Always verify commands with `--help` flag as the CLI may have been updated.
