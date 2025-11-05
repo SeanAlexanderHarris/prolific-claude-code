@@ -1,5 +1,5 @@
 {
-  "name": "prolific-plugin",
+  "name": "prolific-cli",
   "description": "Unofficial plugin for managing Prolific research via Claude Code and the Prolific CLI",
   "author": {
     "name": "@SeanAlexanderHarris"

@@ -1,6 +1,6 @@
 ---
-name: CLI-Interacting with Prolific
-description: Interacts with Prolific via the Prolific CLI tool to manage studies, participants, and submissions.
+name: prolific-cli-skill
+description: Comprehensive skill for working with the Prolific CLI tool to manage studies, participants, and research data. Use this skill when users need to interact with Prolific's research platform through command-line operations.
 ---
 
 # Prolific CLI Operations
